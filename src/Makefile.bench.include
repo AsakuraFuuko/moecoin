@@ -27,7 +27,7 @@ bench_bench_moecoin_SOURCES = \
   bench/perf.cpp \
   bench/perf.h
 
-nodist_bench_bench_bitcoin_SOURCES = $(GENERATED_TEST_FILES)
+nodist_bench_bench_moecoin_SOURCES = $(GENERATED_TEST_FILES)
 
 bench_bench_moecoin_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CLFAGS) $(EVENT_PTHREADS_CFLAGS) -I$(builddir)/bench/
 bench_bench_moecoin_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
