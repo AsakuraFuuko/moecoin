@@ -166,8 +166,8 @@
         <translation>&amp;Opsies</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Moecoin</source>
+        <translation>Moecoin</translation>
     </message>
     <message>
         <source>Wallet</source>
